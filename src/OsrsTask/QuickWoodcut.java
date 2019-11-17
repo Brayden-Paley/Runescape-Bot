@@ -35,9 +35,7 @@ public class QuickWoodcut extends PollingScript<ClientContext> implements PaintL
                 task.execute();
                 break;
             }
-
         }
-
     }
     @Override
     public void start(){
@@ -72,9 +70,6 @@ public class QuickWoodcut extends PollingScript<ClientContext> implements PaintL
         } else {
             ctx.controller.stop();
         }
-
-
-
         startExp = ctx.skills.experience(Constants.SKILLS_WOODCUTTING);
     }
 

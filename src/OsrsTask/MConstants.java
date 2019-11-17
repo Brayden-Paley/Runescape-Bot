@@ -29,7 +29,5 @@ public class MConstants {
      */
     public static final int[] TREE_IDS = {1276, 1278};
     public static final int[] WILLOW_IDS = {1756, 1758, 1750, 1760};
-
-
 }
 

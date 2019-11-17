@@ -7,9 +7,6 @@ import org.powerbot.script.rt4.*;
 import java.util.concurrent.Callable;
 import java.util.regex.Pattern;
 
-/**
- * Created by Chris on 05/01/2016.
- */
 public class Walker {
 
     private ClientContext ctx;

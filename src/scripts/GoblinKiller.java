@@ -9,12 +9,11 @@ import org.powerbot.script.PollingScript;
 import org.powerbot.script.Script;
 import org.powerbot.script.rt4.Item;
 import org.powerbot.script.rt4.Npc;
-import java.util.Random;
 
 import java.util.concurrent.Callable;
 
 @Script.Manifest(name = "Goblin Killer", description = "Kills goblins yo", properties = "author = Brayden; topic = 999; client = 4;")
-public class HelloWorld extends PollingScript<ClientContext> {
+public class GoblinKiller extends PollingScript<ClientContext> {
 
     final static int GOBLIN_IDS[] = {3029, 3030, 3031, 3032, 3033, 3034, 3035};
     final static int COW_IDS[] = {2805, 2806, 2807, 2808, 2809,};

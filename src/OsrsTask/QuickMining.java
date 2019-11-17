@@ -53,9 +53,6 @@ public class QuickMining extends PollingScript<ClientContext> implements PaintLi
                 }
 
                 finalPath.addAll(Arrays.asList(MConstants.DWARVEN_MINE));
-
-
-
                 taskList.add(new Walk(ctx,finalPath.toArray(new Tile[] {})));
 
             } else{
@@ -79,9 +76,6 @@ public class QuickMining extends PollingScript<ClientContext> implements PaintLi
         } else {
             ctx.controller.stop();
         }
-
-
-
         startExp = ctx.skills.experience(Constants.SKILLS_MINING);
     }
 
@@ -97,7 +91,6 @@ public class QuickMining extends PollingScript<ClientContext> implements PaintLi
                  task.execute();
                  break;
              }
-
         }
     }
 
